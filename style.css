@@ -1,0 +1,65 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(225, 230, 236);
+    width:100%;
+}
+h1,h3,h2{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-size:40px;
+    margin-top: 30px;
+}
+h2{
+    padding-bottom: 20px;
+}
+figure{
+    text-align: center;
+    background-color:white;
+    padding-top: 30px;
+    margin:15px;
+    
+}
+
+.responsiveImage{
+    max-width:100%;
+}
+
+figcaption{
+    padding:10px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+article{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+ul{
+    width: 600px;
+    display: grid;
+    grid-row-gap:25px;
+}
+
+div {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+div p{
+    display: grid;
+    width:500px;
+}
+
+footer{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer u{
+    color:lightskyblue;
+}
